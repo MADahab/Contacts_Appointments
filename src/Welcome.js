@@ -14,7 +14,7 @@ function Welcome() {
 
   return (
     <div>
-        <h1>Welcome</h1>
+        <h1>Welcome to Contact and Appointment manager</h1>
     </div>    
   );
 }

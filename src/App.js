@@ -47,16 +47,18 @@ function App() {
 
 
   return (
-    <div>
+    <div className='allApp'>
 
       <nav>
         <NavLink
+          className='navLink'
           to={ROUTES.CONTACTS}
           style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}
         >
           CONTACTS
         </NavLink>
         <NavLink
+          className='navLink'
           to={ROUTES.APPOINTMENTS}
           style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}
         >
