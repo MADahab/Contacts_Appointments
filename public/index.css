@@ -3,8 +3,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-
-
 nav > a {
   font-style: normal;
   font-weight: normal;
@@ -32,6 +30,8 @@ h2 {
   margin-bottom: 18px;
 }
 
+section {
+}
 
 hr {
   border: none;
@@ -52,10 +52,6 @@ input[type="submit"] {
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
   margin-bottom: 0px;
-}
-
-input[type="submit"]:hover {
-  cursor: pointer;
 }
 
 input,
